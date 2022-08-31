@@ -29,21 +29,6 @@ public class CalculateServiceImpl implements CalculateService {
       }
       sb.append(" ");
     }
-
-
-//    StringBuilder sb = new StringBuilder();
-//    for (Integer number: numbers) {
-//      if (number % 3 == 0 && number % 5 == 0) {
-//        sb.append("FizzBuzz");
-//      } else if (number % 3 == 0) {
-//        sb.append("Fizz");
-//      } else if (number % 5 == 0) {
-//        sb.append("Buzz");
-//      } else {
-//        sb.append(number);
-//      }
-//      sb.append(" ");
-//    }
     return sb.toString().trim();
   }
 }
