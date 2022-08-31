@@ -9,3 +9,4 @@ BackEnd для игры FizzBuzz.
 3. `(mvnw build (unix) || mvnw.cmd build (win))`
 5. `java -jar build/libs/fizzBuzz-0.0.1-SNAPSHOT.jar`
 
+FrontEnd для этого приложения вы можете найти здесь https://github.com/Evgeny-Mosiychuk/FizzBuzz/tree/master
