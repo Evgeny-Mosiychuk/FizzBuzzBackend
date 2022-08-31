@@ -19,5 +19,3 @@ docker build -t fizzbuzz .
 ## Запуск контейнера
 
 docker run -p 8080:8080 -t fizzbuzz
-
-Open http://localhost:8080 to view it in your browser.
