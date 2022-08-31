@@ -10,3 +10,12 @@ BackEnd для игры FizzBuzz.
 5. `java -jar build/libs/fizzBuzz-0.0.1-SNAPSHOT.jar`
 
 FrontEnd для этого приложения вы можете найти здесь https://github.com/Evgeny-Mosiychuk/FizzBuzz/tree/master
+
+
+## Сборка докер образа и запуск контейнера
+
+
+docker build -t fizzbuzz . 
+docker run -p 8080:8080 -t fizzbuzz
+
+Open http://localhost:3000 to view it in your browser.
