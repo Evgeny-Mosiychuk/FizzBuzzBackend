@@ -1,5 +1,7 @@
 # FizzBuzzBackend
 
+BackEnd для игры FizzBuzz.
+
 ## Run application
 
 1. `git clone https://github.com/Evgeny-Mosiychuk/FizzBuzzBackend`
