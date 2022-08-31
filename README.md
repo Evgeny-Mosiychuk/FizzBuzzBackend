@@ -20,4 +20,4 @@ docker build -t fizzbuzz .
 
 docker run -p 8080:8080 -t fizzbuzz
 
-Open http://localhost:3000 to view it in your browser.
+Open http://localhost:8080 to view it in your browser.
