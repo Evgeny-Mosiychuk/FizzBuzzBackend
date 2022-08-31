@@ -13,7 +13,7 @@ public class NumbersController {
   private final CalculateService calculateService;
 
   @PostMapping("/")
-  public String put(@RequestBody List<Integer> nums) {
+  public String calculate(@RequestBody List<Integer> nums) {
     return calculateService.calculate(nums);
   }
 }
