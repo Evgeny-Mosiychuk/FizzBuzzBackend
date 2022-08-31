@@ -12,10 +12,12 @@ BackEnd для игры FizzBuzz.
 FrontEnd для этого приложения вы можете найти здесь https://github.com/Evgeny-Mosiychuk/FizzBuzz/tree/master
 
 
-## Сборка докер образа и запуск контейнера
-
+## Сборка докер образа
 
 docker build -t fizzbuzz . 
+
+## Запуск контейнера
+
 docker run -p 8080:8080 -t fizzbuzz
 
 Open http://localhost:3000 to view it in your browser.
